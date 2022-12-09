@@ -18,3 +18,4 @@ Hi, my name is `Gavin` and I like to make stuff! I am currently `17` years old w
 
 If you have any feedback, you can reach out to me at gavin@techportint.com
 
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=gavinwhite314&show_icons=true&theme=dark)
