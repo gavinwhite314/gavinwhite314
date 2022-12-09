@@ -1,7 +1,7 @@
 
 # 👋 Gavin White
 
-Hi, I'm `Gavin` and I make stuff! I am `17` years old. Web development and design in my forte but I also enjoy creating small apps, automations, and games. You can learn more about me at https://www.gavinwhite.net
+Hi, my name is `Gavin` and I like make stuff! I am currently `17` years old. Web development and design are my forte but I also enjoy creating small apps, automations, and games. You can learn more about me at https://www.gavinwhite.net
 
 
 ## I work with
