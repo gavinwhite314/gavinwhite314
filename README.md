@@ -1,16 +1,20 @@
-### Hi there 👋
 
-<!--
-**gavinwhite314/gavinwhite314** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 👋 Gavin White
 
-Here are some ideas to get you started:
+Hi, I'm `Gavin` and I make stuff! I am `17` years old. Web development and design in my forte but I also enjoy creating small apps, automations, and games. You can learn more about me at https://www.gavinwhite.net
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## I work with
+![HTML](https://img.shields.io/badge/-HTML5-orange)
+![CSS](https://img.shields.io/badge/-CSS3-blue)
+![JS](https://img.shields.io/badge/-JavaScript-yellow)
+
+![Batch](https://img.shields.io/badge/-Batch-black)
+![VBS](https://img.shields.io/badge/-VBS-black)
+
+![VBS](https://img.shields.io/badge/-Skript-green)
+
+## Feedback
+
+If you have any feedback, you can reach out to me at gavin@techportint.com
+
