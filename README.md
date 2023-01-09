@@ -18,13 +18,6 @@ https://gavinwhite.tech/, https://gavin.software/, https://gavin.is-not-a.dev/, 
 ![VBS](https://img.shields.io/badge/-Skript-green)
 
 
-## Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=gavinwhite314&show_icons=true&theme=dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gavinwhite314&layout=compact&theme=dark)
-
-
 ## Feedback
 
 If you have any feedback, you can reach out to me at me@gavinwhite.net
