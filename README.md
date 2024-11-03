@@ -1,7 +1,7 @@
 
 # 👋 Gavin White
 
-Hi, my name is `Gavin` and I like to make stuff! I am currently `18` years old working on my diploma and Associates in Arts. Web development and design are my forte but I also enjoy creating small apps, automations, and games.
+Hi, my name is `Gavin` and I like to make stuff! 
 
 # Site
 https://gavinwhite.net/
