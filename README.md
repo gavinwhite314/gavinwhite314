@@ -20,4 +20,4 @@ https://gavinawhite.com/
 
 ## Feedback
 
-If you have any feedback, you can reach out to me at me@gavinwhite.net
+If you have any feedback, you can reach out to me at me@gavinawhite.com
