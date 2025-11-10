@@ -4,7 +4,7 @@
 Hi, my name is `Gavin` and I like to make stuff! 
 
 # Site
-https://gavinwhite.net/
+https://gavinawhite.com/
 
 
 ## I work with
