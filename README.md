@@ -1,5 +1,5 @@
 
-# 👋 Gavin White
+# 👋 Gavin W
 
 Hi, my name is `Gavin` and I like to make stuff! 
 
