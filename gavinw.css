@@ -1,9 +1,3 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
-
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -95,27 +89,7 @@
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow: visible; }
-/*  .fr-view[dir="rtl"] blockquote {
-    border-left: none;
-    border-right: solid 2px #5E35B1;
-    margin-right: 0;
-    padding-right: 5px;
-    padding-left: 0; }
-    .fr-view[dir="rtl"] blockquote blockquote {
-      border-color: #00BCD4; }
-      .fr-view[dir="rtl"] blockquote blockquote blockquote {
-        border-color: #43A047; }
-  .fr-view blockquote {
-    border-left: solid 2px #5E35B1;
-    margin-left: 0;
-    padding-left: 5px;
-    color: #5E35B1; }
-    .fr-view blockquote blockquote {
-      border-color: #00BCD4;
-      color: #00BCD4; }
-      .fr-view blockquote blockquote blockquote {
-        border-color: #43A047;
-        color: #43A047; } */
+
   .fr-view span.fr-emoticon {
     font-weight: normal;
     font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
@@ -290,17 +264,12 @@
   .fr-view button.fr-large, .fr-view input.fr-large, .fr-view textarea.fr-large {
     font-size: 24px; }
 
-/**
- * Image style.
- */
 a.fr-view.fr-strong {
   font-weight: 700; }
 a.fr-view.fr-green {
   color: green; }
 
-/**
- * Link style.
- */
+
 img.fr-view {
   position: relative;
   max-width: 100%; }
@@ -38155,3 +38124,50 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+
+/* ===== Global Square Grid Background (added) ===== */
+html, body {
+  min-height: 100%;
+  background-color: #0a192f;
+}
+
+/* Nicepage uses .u-body on <body>; apply to both to guarantee coverage */
+body,
+body.u-body,
+.u-body {
+  background-color: #0a192f;
+  background-image:
+    linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+  background-position: 0 0;
+  background-attachment: fixed;
+}
+/* ===== End Global Square Grid Background ===== */
+
+/* ===== Global Square Grid Background (overlay added) ===== */
+/* This uses an overlay so it remains visible even if sections have solid backgrounds. */
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background-color: #0b1b33; /* matches your current deep navy (also used in 404.html) */
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999; /* above everything so it can't get covered */
+  background-image:
+    linear-gradient(rgba(0, 229, 210, 0.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 210, 0.10) 1px, transparent 1px);
+  background-size: 64px 64px; /* square size */
+  background-position: 0 0;
+  opacity: 0.35; /* overall strength (tweak 0.2–0.5) */
+}
+/* ===== End Global Square Grid Background (overlay added) ===== */
+
