@@ -38143,16 +38143,13 @@ body.u-body,
   background-position: 0 0;
   background-attachment: fixed;
 }
-/* ===== End Global Square Grid Background ===== */
 
-/* ===== Global Square Grid Background (overlay added) ===== */
-/* This uses an overlay so it remains visible even if sections have solid backgrounds. */
 html, body {
   min-height: 100%;
 }
 
 body {
-  background-color: #0b1b33; /* matches your current deep navy (also used in 404.html) */
+  background-color: #0b1b33;
   position: relative;
 }
 
@@ -38161,13 +38158,24 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 9999; /* above everything so it can't get covered */
+  z-index: 9998; 
   background-image:
     linear-gradient(rgba(0, 229, 210, 0.10) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 229, 210, 0.10) 1px, transparent 1px);
-  background-size: 64px 64px; /* square size */
+  background-size: 64px 64px; 
   background-position: 0 0;
-  opacity: 0.35; /* overall strength (tweak 0.2–0.5) */
+  opacity: 0.35;
 }
-/* ===== End Global Square Grid Background (overlay added) ===== */
+
+.u-image,
+.u-image * ,
+img,
+picture,
+video,
+canvas,
+svg {
+  position: relative;
+  z-index: 9999;
+}
+
 
